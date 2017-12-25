@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>nikky-beads</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Inconsolata:italic|Tangerine:italic&effect=shadow-multiple|3d-float|brick-sign">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="pile.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <style>
+        body {
+            margin: 0;
+            font: normal 18px 'Helvetica', Arial, sans-serif;
+            background: #7B768D;
+        }
+        /* Positioning Rules */
+        
+        #container {
+            width: 900px;
+            margin: 0 auto;
+        }
+        
+        #content {
+            position: relative;
+            padding: 20px 250px 60px 20px;
+            background: #fff;
+        }
+        
+        #nav {
+            height: 50px;
+            background: #b7d84b;
+        }
+        
+        #callout {
+            position: absolute;
+            top: 100px;
+            bottom: 100px;
+            right: -80px;
+            width: 210px;
+            padding: 0 20px;
+            border-top: 5px solid #f95b34;
+            background: #fa8366;
+        }
+        
+        #footer {
+            position: fixed;
+            bottom: 0;
+            width: 860px;
+            padding: 0 20px;
+            background: #f36283;
+        }
+        /* Stylistic Rules */
+        
+        #nav a {
+            display: block;
+            float: left;
+            color: #050306;
+            text-decoration: none;
+            padding: 0 20px;
+            line-height: 50px;
+            border-right: 1px solid #91ab3b;
+        }
+        
+        #nav a:hover {
+            background: #999999;
+        }
+        
+        #callout p {
+            color: #fff;
+        }
+    </style>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="nav">
+                <nav class="navbar navbar-default">
+                    <ul class="list-unstyled">
+                        <li class="brand">
+                            <a href="index.html">
+                        NIKKY-BEADS
+                    </a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="latest.html">Latest</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="design.html">Designs</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#">Overview</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#">Events</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+            <div id="content">
+                <div class="row">
+                    <div class="col">
+                        <h1 class='font-effect-shadow-multiple'>Nikky-Beads <span>Creation</span></h1>
+                        <p class="h3-header">Try our hand made beads</p>
+                        <p>We create the best design.</p>
+                        <a href="#wrapper" class="btn btn-primary" id="menu-toggle">Click Here</a>
+                    </div>
+                    <div class="col">
+                        <p class='heading-3'>Try our Beads</p>
+                        <h4 class='3d-float'>And Never Feel The Same</h4>
+                    </div>
+                    <div class="col">
+                        <p class='heading-3'>Beady Stuffs</p>
+                        <p class="h3-heading">Want to get in touch with us,be it to request more info about our products, tips on how to solve soduku,random question about the universe or the meaning of life, just feel free to drop me a line anytime.. </p>
+                        <br/>
+                        <span>promise to reply A.S.A.P </span>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="icons">
+                    <div class='row'>
+                        <div class='col'>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+
+                        </div>
+                        <div class="col">
+                            <h6 class='text-center'>Nikky-Beads Creation @ 2018. <em>ALL RIGHTS RESERVED</em></h6>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- Bootstrap core JavaScript -->
+
+        <!-- Menu Toggle Script -->
+        <script>
+            $("#menu-toggle").click(function(e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+            });
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    </body>
+
+</html>
